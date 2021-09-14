@@ -163,7 +163,7 @@ int main() {
         }
         if (c==7)
         {
-            cout << "sin(alpha) = " << alpha.angle_sin(alpha) << '\t' << "cos(alpha) = " << alpha.angle_cos(alpha) << '\t' << "ctg(alpha) = " << alpha.angle_tan(alpha) << '\t' <<
+            cout << "sin(alpha) = " << alpha.angle_sin(alpha) << '\t' << "cos(alpha) = " << alpha.angle_cos(alpha) << '\t' << "tg(alpha) = " << alpha.angle_tan(alpha) << '\t' <<
             "ctg(alpha) = " << alpha.angle_cot(alpha) << '\n';
         }
         if (c==8)
