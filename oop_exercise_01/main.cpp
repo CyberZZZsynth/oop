@@ -156,14 +156,14 @@ int main() {
             cin >> c >> d;
             angle beta(c,d);
             if(alpha.is_equal(alpha, beta)) {
-                cout << "alpha = beta";
+                cout << "alpha = beta" << '\n';
             } else {
-                cout << "alpha != beta";
+                cout << "alpha != beta" << '\n';
             }
         }
         if (c==7)
         {
-            cout << "sin(alpha) = " << alpha.angle_sin(alpha) << "cos(alpha) = " << alpha.angle_cos(alpha) << "ctg(alpha) = " << alpha.angle_tan(alpha) <<
+            cout << "sin(alpha) = " << alpha.angle_sin(alpha) << '\t' << "cos(alpha) = " << alpha.angle_cos(alpha) << '\t' << "tg(alpha) = " << alpha.angle_tan(alpha) << '\t' <<
             "ctg(alpha) = " << alpha.angle_cot(alpha) << '\n';
         }
         if (c==8)
