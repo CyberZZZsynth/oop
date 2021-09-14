@@ -156,9 +156,9 @@ int main() {
             cin >> c >> d;
             angle beta(c,d);
             if(alpha.is_equal(alpha, beta)) {
-                cout << "alpha = beta";
+                cout << "alpha = beta" << '\n';
             } else {
-                cout << "alpha != beta";
+                cout << "alpha != beta" << '\n';
             }
         }
         if (c==7)
