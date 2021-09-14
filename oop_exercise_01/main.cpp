@@ -21,25 +21,22 @@ public:
     int minutes;
 
     angle(int c, int d) {
-        grad = c+d/60;
-        minutes = mod(d, 60);
-        if(c > 0) {
-            minutes = -minutes;
-        }
+        grad = c + d / 60;
+        minutes = d%60;
     }
 
     void printangle() {
-        cout << grad+minutes/60 << '*' << mod(minutes, 60) << "'" << '\n';
+        cout << grad+minutes/60 << '*' << abs(minutes%60) << "'" << '\n';
     }
 
     void sum_angle(angle a, angle b) {
         rgrad = a.grad+b.grad+(a.minutes+b.minutes)/60;
-        rminutes = mod((a.minutes+b.minutes), 60);
+        rminutes = (a.minutes+b.minutes)%60;
     }
 
     void subt_angle(angle a, angle b) {
-        rgrad = a.grad-b.grad-(a.minutes-b.minutes)/60;
-        rminutes = mod((a.minutes-b.minutes), 60);
+        rgrad = a.grad-b.grad+(a.minutes-b.minutes)/60;
+        rminutes = (a.minutes-b.minutes)%60;
     }
 
     angle get_sum() {
@@ -59,8 +56,9 @@ public:
 
     void to_360(angle a) {
         int p=a.grad, q=a.minutes;
-        rgrad = mod(p, 360);
-        rminutes = mod(q, 60);
+        int f=mod(p*60+q,360*60);
+        rgrad = f/60;
+        rminutes = f%60;
     }
 
     angle get_360form() {
@@ -134,7 +132,7 @@ int main() {
         if (c==4)
         {
             alpha.to_360(alpha);
-            alpha.get_360form();
+            (alpha.get_360form()).printangle();
         }
         if (c==5)
         {
@@ -156,9 +154,9 @@ int main() {
             cin >> c >> d;
             angle beta(c,d);
             if(alpha.is_equal(alpha, beta)) {
-                cout << "alpha = beta" << '\n';
+                cout << "alpha = beta";
             } else {
-                cout << "alpha != beta" << '\n';
+                cout << "alpha != beta";
             }
         }
         if (c==7)
