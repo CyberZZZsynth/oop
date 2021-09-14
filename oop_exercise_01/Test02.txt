@@ -1,0 +1,38 @@
+E:\CppProjects\oop_exercise_01\cmake-build-debug\oop_exercise_01.exe
+1. Input angle  2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum and substraction
+6. Compare angles       7. Trigonometric functions      8. Exit
+1
+Enter angle alpha
+-30 59
+1. Input angle  2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum and substraction
+6. Compare angles       7. Trigonometric functions      8. Exit
+2
+-30*59'
+1. Input angle  2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum and substraction
+6. Compare angles       7. Trigonometric functions      8. Exit
+3
+-0.506436
+1. Input angle  2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum and substraction
+6. Compare angles       7. Trigonometric functions      8. Exit
+4
+330*1'
+1. Input angle  2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum and substraction
+6. Compare angles       7. Trigonometric functions      8. Exit
+5
+Enter angle beta
+30 59
+alpha+beta = 0*0'
+        alpha-beta = -61*58'
+1. Input angle  2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum and substraction
+6. Compare angles       7. Trigonometric functions      8. Exit
+6
+Enter angle beta
+-30 59
+alpha = beta
+1. Input angle      2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum a
+nd substraction 6. Compare angles       7. Trigonometric functions      8. Exit
+7
+sin(alpha) = -0.485064  cos(alpha) = 0.874479   tg(alpha) = -0.554689   ctg(alpha) = -1.80281
+1. Input angle  2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum and substraction
+6. Compare angles       7. Trigonometric functions      8. Exit
+8
