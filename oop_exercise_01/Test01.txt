@@ -19,7 +19,6 @@ Enter angle alpha
 1. Input angle  2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum and substraction
 6. Compare angles       7. Trigonometric functions      8. Exit
 5
-
 Enter angle beta
 30 0
 alpha+beta = 90*0'
@@ -28,14 +27,11 @@ alpha+beta = 90*0'
 6. Compare angles       7. Trigonometric functions      8. Exit
 6
 Enter angle beta
-45 0
-alpha != beta
-1. Input angle     2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum a
+-300 0
+alpha = beta1. Input angle      2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum a
 nd substraction 6. Compare angles       7. Trigonometric functions      8. Exit
 7
 sin(alpha) = 0.866025   cos(alpha) = 0.5        tg(alpha) = 1.73205     ctg(alpha) = 0.57735
 1. Input angle  2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum and substraction
 6. Compare angles       7. Trigonometric functions      8. Exit
 8
-
-Process finished with exit code 0
