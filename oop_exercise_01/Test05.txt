@@ -34,4 +34,4 @@ nd substraction 6. Compare angles       7. Trigonometric functions      8. Exit
 sin(alpha) = 0.218143   cos(alpha) = -0.975917  tg(alpha) = -0.223526   ctg(alpha) = -4.47374
 1. Input angle  2. Print angle  3. Print angle in radians       4. Print angle in 360 form      5. Sum and substraction
 6. Compare angles       7. Trigonometric functions      8. Exit
-8ъ
+8
