@@ -21,18 +21,16 @@ public:
     int minutes;
 
     angle(int c, int d) {
-<<<<<<< HEAD
         if((c < 0) && (d > 0)) {
             d = -d;
         }
-=======
->>>>>>> 53d704f39706814f6e58d6659e4a6b1f7e806c9e
+
         grad = c + d / 60;
         minutes = d%60;
     }
 
     void printangle() {
-<<<<<<< HEAD
+
         if(minutes % 60 < 0 && grad + minutes / 60 == 0) {
             cout << "-" << grad + minutes / 60 << '*' << abs(minutes % 60) << "'" << '\n';
         } else {
@@ -43,14 +41,12 @@ public:
     void sum_angle(angle a, angle b) {
         rgrad = a.grad + b.grad + (a.minutes + b.minutes) / 60;
         rminutes = (a.minutes + b.minutes)%60;
-=======
         cout << grad+minutes/60 << '*' << abs(minutes%60) << "'" << '\n';
     }
 
     void sum_angle(angle a, angle b) {
         rgrad = a.grad+b.grad+(a.minutes+b.minutes)/60;
         rminutes = (a.minutes+b.minutes)%60;
->>>>>>> 53d704f39706814f6e58d6659e4a6b1f7e806c9e
     }
 
     void subt_angle(angle a, angle b) {
