@@ -10,16 +10,15 @@
 
 class Square {
 private:
-    Square(Point a, Point b, Point c, Point d);
-
     Point A, B, C, D;
 public:
+    Point get_center();
     Square(std::istream &in);
     size_t get_Vertex();
     double get_Area();
     Square();
     void Print(std::ostream &out);
-    Square(Point a, Point b, Point c);
+    Square(Point a, Point b, Point c, Point d);
     friend std::istream& operator>> (std::istream &in, Square &S);
 };
 

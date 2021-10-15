@@ -12,6 +12,7 @@ public:
     virtual size_t get_Vertex() = 0;
     virtual double get_Area()=0;
     virtual void Print(std::ostream &out) = 0;
+    virtual Point get_center() = 0;
     ~Figure() {
     };
 };

@@ -128,6 +128,30 @@ oop_exercise_03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_03.dir\build.make CMakeFiles/oop_exercise_03.dir/build
 .PHONY : oop_exercise_03/fast
 
+Octagon.obj: Octagon.cpp.obj
+.PHONY : Octagon.obj
+
+# target to build an object file
+Octagon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_03.dir\build.make CMakeFiles/oop_exercise_03.dir/Octagon.cpp.obj
+.PHONY : Octagon.cpp.obj
+
+Octagon.i: Octagon.cpp.i
+.PHONY : Octagon.i
+
+# target to preprocess a source file
+Octagon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_03.dir\build.make CMakeFiles/oop_exercise_03.dir/Octagon.cpp.i
+.PHONY : Octagon.cpp.i
+
+Octagon.s: Octagon.cpp.s
+.PHONY : Octagon.s
+
+# target to generate assembly for a file
+Octagon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_03.dir\build.make CMakeFiles/oop_exercise_03.dir/Octagon.cpp.s
+.PHONY : Octagon.cpp.s
+
 Point.obj: Point.cpp.obj
 .PHONY : Point.obj
 
@@ -233,6 +257,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... oop_exercise_03
+	@echo ... Octagon.obj
+	@echo ... Octagon.i
+	@echo ... Octagon.s
 	@echo ... Point.obj
 	@echo ... Point.i
 	@echo ... Point.s

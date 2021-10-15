@@ -18,6 +18,7 @@ public:
     Triangle();
     void Print(std::ostream &out);
     Triangle(Point a, Point b, Point c);
+    Point get_center();
     friend std::istream& operator>> (std::istream &in, Triangle &S);
 };
 

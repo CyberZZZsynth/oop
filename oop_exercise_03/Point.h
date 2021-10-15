@@ -18,6 +18,8 @@ public:
     double get_distance(Point& point2);
     friend std::ostream& operator<< (std::ostream &out, Point& point);
     friend std::istream& operator>> (std::istream &in, Point& point);
+
+    Point(double d, double d1);
 };
 
 

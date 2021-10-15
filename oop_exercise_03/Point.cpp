@@ -34,4 +34,9 @@ std::istream& operator>> (std::istream &in, Point &point) {
     return in;
 }
 
+Point::Point(double d, double d1) {
+    x=d;
+    y=d1;
+}
+
 

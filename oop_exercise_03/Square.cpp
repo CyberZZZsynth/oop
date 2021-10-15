@@ -35,3 +35,9 @@ std::istream &operator>>(std::istream &in, Square &S) {
     in >> S.A >> S.B >> S.C >> S.D;
     return in;
 }
+
+Point Square::get_center() {
+    double x = (A.get_X()+B.get_X()+C.get_X()+D.get_X())/4.0;
+    double y = (A.get_Y()+B.get_Y()+C.get_Y()+D.get_Y())/4.0;
+    return Point(x,y);
+}

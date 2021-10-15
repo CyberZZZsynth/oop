@@ -83,6 +83,12 @@
 		<Unit filename="E:/lab_repos/oop/oop_exercise_03/Figure.h">
 			<Option target="oop_exercise_03"/>
 		</Unit>
+		<Unit filename="E:/lab_repos/oop/oop_exercise_03/Octagon.cpp">
+			<Option target="oop_exercise_03"/>
+		</Unit>
+		<Unit filename="E:/lab_repos/oop/oop_exercise_03/Octagon.h">
+			<Option target="oop_exercise_03"/>
+		</Unit>
 		<Unit filename="E:/lab_repos/oop/oop_exercise_03/Point.cpp">
 			<Option target="oop_exercise_03"/>
 		</Unit>

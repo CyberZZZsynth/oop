@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/lab_repos/oop/oop_exercise_03/Octagon.cpp" "E:/lab_repos/oop/oop_exercise_03/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/Octagon.cpp.obj"
   "E:/lab_repos/oop/oop_exercise_03/Point.cpp" "E:/lab_repos/oop/oop_exercise_03/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/Point.cpp.obj"
   "E:/lab_repos/oop/oop_exercise_03/Square.cpp" "E:/lab_repos/oop/oop_exercise_03/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/Square.cpp.obj"
   "E:/lab_repos/oop/oop_exercise_03/Triangle.cpp" "E:/lab_repos/oop/oop_exercise_03/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/Triangle.cpp.obj"

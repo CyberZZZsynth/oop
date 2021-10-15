@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/oop_exercise_03.dir/Octagon.cpp.obj"
   "CMakeFiles/oop_exercise_03.dir/Point.cpp.obj"
   "CMakeFiles/oop_exercise_03.dir/Square.cpp.obj"
   "CMakeFiles/oop_exercise_03.dir/Triangle.cpp.obj"
