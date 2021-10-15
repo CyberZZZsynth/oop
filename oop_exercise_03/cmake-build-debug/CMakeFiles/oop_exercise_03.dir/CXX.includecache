@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
+E:/lab_repos/oop/oop_exercise_03/Figure.h
+Point.h
+E:/lab_repos/oop/oop_exercise_03/Point.h
+
 E:/lab_repos/oop/oop_exercise_03/Point.h
 iostream
 -
+
+E:/lab_repos/oop/oop_exercise_03/Square.h
+Point.h
+E:/lab_repos/oop/oop_exercise_03/Point.h
+Figure.h
+E:/lab_repos/oop/oop_exercise_03/Figure.h
+
+E:/lab_repos/oop/oop_exercise_03/Triangle.h
+Point.h
+E:/lab_repos/oop/oop_exercise_03/Point.h
+Figure.h
+E:/lab_repos/oop/oop_exercise_03/Figure.h
 
 E:/lab_repos/oop/oop_exercise_03/main.cpp
 iostream
@@ -17,4 +33,10 @@ vector
 -
 Point.h
 E:/lab_repos/oop/oop_exercise_03/Point.h
+Triangle.h
+E:/lab_repos/oop/oop_exercise_03/Triangle.h
+Figure.h
+E:/lab_repos/oop/oop_exercise_03/Figure.h
+Square.h
+E:/lab_repos/oop/oop_exercise_03/Square.h
 

@@ -80,13 +80,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/lab_repos/oop/oop_exercise_03/Figure.h">
+			<Option target="oop_exercise_03"/>
+		</Unit>
 		<Unit filename="E:/lab_repos/oop/oop_exercise_03/Point.cpp">
 			<Option target="oop_exercise_03"/>
 		</Unit>
 		<Unit filename="E:/lab_repos/oop/oop_exercise_03/Point.h">
 			<Option target="oop_exercise_03"/>
 		</Unit>
-		<Unit filename="E:/lab_repos/oop/oop_exercise_03/cmake-build-debug/Figure.h">
+		<Unit filename="E:/lab_repos/oop/oop_exercise_03/Square.cpp">
+			<Option target="oop_exercise_03"/>
+		</Unit>
+		<Unit filename="E:/lab_repos/oop/oop_exercise_03/Square.h">
+			<Option target="oop_exercise_03"/>
+		</Unit>
+		<Unit filename="E:/lab_repos/oop/oop_exercise_03/Triangle.cpp">
+			<Option target="oop_exercise_03"/>
+		</Unit>
+		<Unit filename="E:/lab_repos/oop/oop_exercise_03/Triangle.h">
 			<Option target="oop_exercise_03"/>
 		</Unit>
 		<Unit filename="E:/lab_repos/oop/oop_exercise_03/main.cpp">

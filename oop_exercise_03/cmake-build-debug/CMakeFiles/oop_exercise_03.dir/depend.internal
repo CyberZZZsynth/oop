@@ -4,6 +4,19 @@
 CMakeFiles/oop_exercise_03.dir/Point.cpp.obj
  E:/lab_repos/oop/oop_exercise_03/Point.cpp
  E:/lab_repos/oop/oop_exercise_03/Point.h
-CMakeFiles/oop_exercise_03.dir/main.cpp.obj
+CMakeFiles/oop_exercise_03.dir/Square.cpp.obj
+ E:/lab_repos/oop/oop_exercise_03/Figure.h
  E:/lab_repos/oop/oop_exercise_03/Point.h
+ E:/lab_repos/oop/oop_exercise_03/Square.cpp
+ E:/lab_repos/oop/oop_exercise_03/Square.h
+CMakeFiles/oop_exercise_03.dir/Triangle.cpp.obj
+ E:/lab_repos/oop/oop_exercise_03/Figure.h
+ E:/lab_repos/oop/oop_exercise_03/Point.h
+ E:/lab_repos/oop/oop_exercise_03/Triangle.cpp
+ E:/lab_repos/oop/oop_exercise_03/Triangle.h
+CMakeFiles/oop_exercise_03.dir/main.cpp.obj
+ E:/lab_repos/oop/oop_exercise_03/Figure.h
+ E:/lab_repos/oop/oop_exercise_03/Point.h
+ E:/lab_repos/oop/oop_exercise_03/Square.h
+ E:/lab_repos/oop/oop_exercise_03/Triangle.h
  E:/lab_repos/oop/oop_exercise_03/main.cpp

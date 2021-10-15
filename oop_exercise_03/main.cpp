@@ -1,13 +1,15 @@
 #include <iostream>
 #include <vector>
 #include "Point.h"
+#include "Triangle.h"
+#include "Figure.h"
+#include "Square.h"
 
 using namespace std;
 
 int main() {
-    Point point1, point2;
-    cin >> point1;
-    cin >> point2;
-    double a = point1.get_distance(point2);
-    cout << a;
+    Square S;
+    cin >> S;
+    double Area = S.get_Area();
+    S.Print(cout);
 }

@@ -152,6 +152,54 @@ Point.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_03.dir\build.make CMakeFiles/oop_exercise_03.dir/Point.cpp.s
 .PHONY : Point.cpp.s
 
+Square.obj: Square.cpp.obj
+.PHONY : Square.obj
+
+# target to build an object file
+Square.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_03.dir\build.make CMakeFiles/oop_exercise_03.dir/Square.cpp.obj
+.PHONY : Square.cpp.obj
+
+Square.i: Square.cpp.i
+.PHONY : Square.i
+
+# target to preprocess a source file
+Square.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_03.dir\build.make CMakeFiles/oop_exercise_03.dir/Square.cpp.i
+.PHONY : Square.cpp.i
+
+Square.s: Square.cpp.s
+.PHONY : Square.s
+
+# target to generate assembly for a file
+Square.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_03.dir\build.make CMakeFiles/oop_exercise_03.dir/Square.cpp.s
+.PHONY : Square.cpp.s
+
+Triangle.obj: Triangle.cpp.obj
+.PHONY : Triangle.obj
+
+# target to build an object file
+Triangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_03.dir\build.make CMakeFiles/oop_exercise_03.dir/Triangle.cpp.obj
+.PHONY : Triangle.cpp.obj
+
+Triangle.i: Triangle.cpp.i
+.PHONY : Triangle.i
+
+# target to preprocess a source file
+Triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_03.dir\build.make CMakeFiles/oop_exercise_03.dir/Triangle.cpp.i
+.PHONY : Triangle.cpp.i
+
+Triangle.s: Triangle.cpp.s
+.PHONY : Triangle.s
+
+# target to generate assembly for a file
+Triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_03.dir\build.make CMakeFiles/oop_exercise_03.dir/Triangle.cpp.s
+.PHONY : Triangle.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -188,6 +236,12 @@ help:
 	@echo ... Point.obj
 	@echo ... Point.i
 	@echo ... Point.s
+	@echo ... Square.obj
+	@echo ... Square.i
+	@echo ... Square.s
+	@echo ... Triangle.obj
+	@echo ... Triangle.i
+	@echo ... Triangle.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
