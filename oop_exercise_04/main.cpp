@@ -1,6 +1,11 @@
 #include <iostream>
+#include "Point.h"
+#include "Figure.h"
+#include "Triangle.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    Triangle S;
+    std::cin >> S;
+    Triangle W=S;
+    std::cout << W;
 }
