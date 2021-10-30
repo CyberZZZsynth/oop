@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/lab_repos/oop/oop_exercise_04/Array.cpp" "E:/lab_repos/oop/oop_exercise_04/cmake-build-debug/CMakeFiles/oop_exercise_04.dir/Array.cpp.obj"
+  "E:/lab_repos/oop/oop_exercise_04/MyStack.cpp" "E:/lab_repos/oop/oop_exercise_04/cmake-build-debug/CMakeFiles/oop_exercise_04.dir/MyStack.cpp.obj"
   "E:/lab_repos/oop/oop_exercise_04/Point.cpp" "E:/lab_repos/oop/oop_exercise_04/cmake-build-debug/CMakeFiles/oop_exercise_04.dir/Point.cpp.obj"
+  "E:/lab_repos/oop/oop_exercise_04/StackItem.cpp" "E:/lab_repos/oop/oop_exercise_04/cmake-build-debug/CMakeFiles/oop_exercise_04.dir/StackItem.cpp.obj"
   "E:/lab_repos/oop/oop_exercise_04/Triangle.cpp" "E:/lab_repos/oop/oop_exercise_04/cmake-build-debug/CMakeFiles/oop_exercise_04.dir/Triangle.cpp.obj"
   "E:/lab_repos/oop/oop_exercise_04/main.cpp" "E:/lab_repos/oop/oop_exercise_04/cmake-build-debug/CMakeFiles/oop_exercise_04.dir/main.cpp.obj"
   )

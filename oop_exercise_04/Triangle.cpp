@@ -40,10 +40,24 @@ size_t Triangle::get_Vertex() {
 }
 
 std::ostream &operator<<(std::ostream &out, Triangle &S){
-    out << S.A << S.B << S.C;
+    out << S.A << ' ' << S.B << ' ' << S.C;
 }
 
 std::istream &operator>>(std::istream &in, Triangle &S) {
     in >> S.A >> S.B >> S.C;
     return in;
+}
+
+bool Triangle::operator==(const Triangle &S) {
+    return ((A == S.A) && (B == S.B) && (C == S.C));
+}
+
+Triangle &Triangle::operator=(const Triangle &S) {
+    if (this == &S) {
+        return *this;
+    }
+    A = S.A;
+    B = S.B;
+    C = S.C;
+    return *this;
 }

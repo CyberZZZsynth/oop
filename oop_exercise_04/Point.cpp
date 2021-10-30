@@ -5,6 +5,16 @@
 #include "Point.h"
 #include <cmath>
 
+bool Point::operator==(const Point &Point2) {
+    return((x == Point2.x) && (y == Point2.y));
+}
+
+Point Point::operator=(const Point &Point2) {
+    x = Point2.x;
+    y = Point2.y;
+    return *this;
+}
+
 Point::Point() {}
 
 double Point::get_X() {

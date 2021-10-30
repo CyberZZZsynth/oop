@@ -16,11 +16,12 @@ public:
     size_t get_Vertex();
     double get_Area();
     Triangle();
-    void Print(std::ostream &out);
     Triangle(Point a, Point b, Point c);
     Point get_center();
     friend std::istream& operator>> (std::istream &in, Triangle &S);
     friend std::ostream& operator<< (std::ostream & out, Triangle &S);
+    Triangle & operator= (const Triangle &S);
+    bool operator== (const Triangle &S);
 };
 
 

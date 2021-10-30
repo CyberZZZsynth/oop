@@ -104,11 +104,53 @@ CMakeFiles/oop_exercise_04.dir/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oop_exercise_04.dir/Triangle.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\lab_repos\oop\oop_exercise_04\Triangle.cpp -o CMakeFiles\oop_exercise_04.dir\Triangle.cpp.s
 
+CMakeFiles/oop_exercise_04.dir/Array.cpp.obj: CMakeFiles/oop_exercise_04.dir/flags.make
+CMakeFiles/oop_exercise_04.dir/Array.cpp.obj: ../Array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\lab_repos\oop\oop_exercise_04\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oop_exercise_04.dir/Array.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oop_exercise_04.dir\Array.cpp.obj -c E:\lab_repos\oop\oop_exercise_04\Array.cpp
+
+CMakeFiles/oop_exercise_04.dir/Array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oop_exercise_04.dir/Array.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\lab_repos\oop\oop_exercise_04\Array.cpp > CMakeFiles\oop_exercise_04.dir\Array.cpp.i
+
+CMakeFiles/oop_exercise_04.dir/Array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oop_exercise_04.dir/Array.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\lab_repos\oop\oop_exercise_04\Array.cpp -o CMakeFiles\oop_exercise_04.dir\Array.cpp.s
+
+CMakeFiles/oop_exercise_04.dir/MyStack.cpp.obj: CMakeFiles/oop_exercise_04.dir/flags.make
+CMakeFiles/oop_exercise_04.dir/MyStack.cpp.obj: ../MyStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\lab_repos\oop\oop_exercise_04\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oop_exercise_04.dir/MyStack.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oop_exercise_04.dir\MyStack.cpp.obj -c E:\lab_repos\oop\oop_exercise_04\MyStack.cpp
+
+CMakeFiles/oop_exercise_04.dir/MyStack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oop_exercise_04.dir/MyStack.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\lab_repos\oop\oop_exercise_04\MyStack.cpp > CMakeFiles\oop_exercise_04.dir\MyStack.cpp.i
+
+CMakeFiles/oop_exercise_04.dir/MyStack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oop_exercise_04.dir/MyStack.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\lab_repos\oop\oop_exercise_04\MyStack.cpp -o CMakeFiles\oop_exercise_04.dir\MyStack.cpp.s
+
+CMakeFiles/oop_exercise_04.dir/StackItem.cpp.obj: CMakeFiles/oop_exercise_04.dir/flags.make
+CMakeFiles/oop_exercise_04.dir/StackItem.cpp.obj: ../StackItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\lab_repos\oop\oop_exercise_04\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oop_exercise_04.dir/StackItem.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oop_exercise_04.dir\StackItem.cpp.obj -c E:\lab_repos\oop\oop_exercise_04\StackItem.cpp
+
+CMakeFiles/oop_exercise_04.dir/StackItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oop_exercise_04.dir/StackItem.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\lab_repos\oop\oop_exercise_04\StackItem.cpp > CMakeFiles\oop_exercise_04.dir\StackItem.cpp.i
+
+CMakeFiles/oop_exercise_04.dir/StackItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oop_exercise_04.dir/StackItem.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\lab_repos\oop\oop_exercise_04\StackItem.cpp -o CMakeFiles\oop_exercise_04.dir\StackItem.cpp.s
+
 # Object files for target oop_exercise_04
 oop_exercise_04_OBJECTS = \
 "CMakeFiles/oop_exercise_04.dir/main.cpp.obj" \
 "CMakeFiles/oop_exercise_04.dir/Point.cpp.obj" \
-"CMakeFiles/oop_exercise_04.dir/Triangle.cpp.obj"
+"CMakeFiles/oop_exercise_04.dir/Triangle.cpp.obj" \
+"CMakeFiles/oop_exercise_04.dir/Array.cpp.obj" \
+"CMakeFiles/oop_exercise_04.dir/MyStack.cpp.obj" \
+"CMakeFiles/oop_exercise_04.dir/StackItem.cpp.obj"
 
 # External object files for target oop_exercise_04
 oop_exercise_04_EXTERNAL_OBJECTS =
@@ -116,11 +158,14 @@ oop_exercise_04_EXTERNAL_OBJECTS =
 oop_exercise_04.exe: CMakeFiles/oop_exercise_04.dir/main.cpp.obj
 oop_exercise_04.exe: CMakeFiles/oop_exercise_04.dir/Point.cpp.obj
 oop_exercise_04.exe: CMakeFiles/oop_exercise_04.dir/Triangle.cpp.obj
+oop_exercise_04.exe: CMakeFiles/oop_exercise_04.dir/Array.cpp.obj
+oop_exercise_04.exe: CMakeFiles/oop_exercise_04.dir/MyStack.cpp.obj
+oop_exercise_04.exe: CMakeFiles/oop_exercise_04.dir/StackItem.cpp.obj
 oop_exercise_04.exe: CMakeFiles/oop_exercise_04.dir/build.make
 oop_exercise_04.exe: CMakeFiles/oop_exercise_04.dir/linklibs.rsp
 oop_exercise_04.exe: CMakeFiles/oop_exercise_04.dir/objects1.rsp
 oop_exercise_04.exe: CMakeFiles/oop_exercise_04.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\lab_repos\oop\oop_exercise_04\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable oop_exercise_04.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\lab_repos\oop\oop_exercise_04\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable oop_exercise_04.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\oop_exercise_04.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

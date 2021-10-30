@@ -128,6 +128,54 @@ oop_exercise_04/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_04.dir\build.make CMakeFiles/oop_exercise_04.dir/build
 .PHONY : oop_exercise_04/fast
 
+Array.obj: Array.cpp.obj
+.PHONY : Array.obj
+
+# target to build an object file
+Array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_04.dir\build.make CMakeFiles/oop_exercise_04.dir/Array.cpp.obj
+.PHONY : Array.cpp.obj
+
+Array.i: Array.cpp.i
+.PHONY : Array.i
+
+# target to preprocess a source file
+Array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_04.dir\build.make CMakeFiles/oop_exercise_04.dir/Array.cpp.i
+.PHONY : Array.cpp.i
+
+Array.s: Array.cpp.s
+.PHONY : Array.s
+
+# target to generate assembly for a file
+Array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_04.dir\build.make CMakeFiles/oop_exercise_04.dir/Array.cpp.s
+.PHONY : Array.cpp.s
+
+MyStack.obj: MyStack.cpp.obj
+.PHONY : MyStack.obj
+
+# target to build an object file
+MyStack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_04.dir\build.make CMakeFiles/oop_exercise_04.dir/MyStack.cpp.obj
+.PHONY : MyStack.cpp.obj
+
+MyStack.i: MyStack.cpp.i
+.PHONY : MyStack.i
+
+# target to preprocess a source file
+MyStack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_04.dir\build.make CMakeFiles/oop_exercise_04.dir/MyStack.cpp.i
+.PHONY : MyStack.cpp.i
+
+MyStack.s: MyStack.cpp.s
+.PHONY : MyStack.s
+
+# target to generate assembly for a file
+MyStack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_04.dir\build.make CMakeFiles/oop_exercise_04.dir/MyStack.cpp.s
+.PHONY : MyStack.cpp.s
+
 Point.obj: Point.cpp.obj
 .PHONY : Point.obj
 
@@ -151,6 +199,30 @@ Point.s: Point.cpp.s
 Point.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_04.dir\build.make CMakeFiles/oop_exercise_04.dir/Point.cpp.s
 .PHONY : Point.cpp.s
+
+StackItem.obj: StackItem.cpp.obj
+.PHONY : StackItem.obj
+
+# target to build an object file
+StackItem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_04.dir\build.make CMakeFiles/oop_exercise_04.dir/StackItem.cpp.obj
+.PHONY : StackItem.cpp.obj
+
+StackItem.i: StackItem.cpp.i
+.PHONY : StackItem.i
+
+# target to preprocess a source file
+StackItem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_04.dir\build.make CMakeFiles/oop_exercise_04.dir/StackItem.cpp.i
+.PHONY : StackItem.cpp.i
+
+StackItem.s: StackItem.cpp.s
+.PHONY : StackItem.s
+
+# target to generate assembly for a file
+StackItem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop_exercise_04.dir\build.make CMakeFiles/oop_exercise_04.dir/StackItem.cpp.s
+.PHONY : StackItem.cpp.s
 
 Triangle.obj: Triangle.cpp.obj
 .PHONY : Triangle.obj
@@ -209,9 +281,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... oop_exercise_04
+	@echo ... Array.obj
+	@echo ... Array.i
+	@echo ... Array.s
+	@echo ... MyStack.obj
+	@echo ... MyStack.i
+	@echo ... MyStack.s
 	@echo ... Point.obj
 	@echo ... Point.i
 	@echo ... Point.s
+	@echo ... StackItem.obj
+	@echo ... StackItem.i
+	@echo ... StackItem.s
 	@echo ... Triangle.obj
 	@echo ... Triangle.i
 	@echo ... Triangle.s
