@@ -68,6 +68,29 @@ bool Array::is_empty() {
     return (size == 0);
 }
 
+void Array::delete_vector() {
+    free(arr);
+    size = 0;
+    count = 0;
+}
+
+void Array::remove(int index) {
+    if (count == 0) {
+        return;
+    }
+    Triangle *newarr = new Triangle[size-1];
+    int current_index=0;
+    for(int i=0;i<count;i++){
+        if(i != index-1) {
+            newarr[current_index]=arr[i];
+            current_index++;
+        }
+    }
+    count--;
+    size--;
+    arr=newarr;
+}
+
 void Array::insert(int index, Triangle &S) {
     Triangle *newarr = new Triangle[size+1];
     for (int i = 0; i < index-1; ++i){

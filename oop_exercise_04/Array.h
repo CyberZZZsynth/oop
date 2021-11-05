@@ -27,6 +27,8 @@ public:
     void resize(int new_size);
     void insert(int index, Triangle &S);
     void push_back(Triangle &S);
+    void delete_vector();
+    void remove(int index);
 };
 
 
